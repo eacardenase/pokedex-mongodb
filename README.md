@@ -43,3 +43,12 @@ http://localhost:3000/api/v2/seed
 
 - MongoDB
 - NestJS
+
+# Notes
+
+Force deploy on Heroku without changes
+
+```
+git commit --allow-empty -m "trigger heroku deploy"
+git push heroku main
+```
